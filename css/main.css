@@ -76,7 +76,7 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url("../images/headshot.jpg");
+  background: url("../images/headshot-small.jpg");
   background-size: cover;
   border-radius: 50%;
   border: 3px solid #e05d05;
