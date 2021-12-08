@@ -391,13 +391,14 @@ div.menu-branding.show {
     transform: translate3d(100%, 0, 0);
   }
   .menu-branding .portrait {
-    background: url(../images/headshot.jpg);
+    background: url("../images/headshot-small.jpg");
+    background-size: cover;
     width: 150px;
     height: 150px;
   }
 
   .about-info {
-    grid-template-areas: "bioImage" "bio" "job1" "job2" "job3";
+    grid-template-areas: "bioImage" "bio" "education1" "education2" "education3";
     grid-template-columns: 1fr;
   }
 
